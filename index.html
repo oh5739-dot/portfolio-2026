@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="ko">
-<head>
+<html lang="en"><head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>오은석 — Brand Experience Designer</title>
+<title>Oh Eunseok — Brand Experience Designer</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=Noto+Serif+KR:wght@300;400;500&family=Noto+Sans+KR:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&amp;family=DM+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
 
 <style>
 :root {
@@ -18,9 +17,9 @@
   --accent: #2A4BD4;
   --accent-light: #E8EDFF;
   --rule: #D4D0C8;
-  --serif: 'DM Serif Display', 'Noto Serif KR', Georgia, serif;
+  --serif: 'DM Serif Display', Georgia, serif;
   --mono: 'DM Mono', monospace;
-  --sans: 'Noto Sans KR', sans-serif;
+  --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
   --ease: cubic-bezier(0.16, 1, 0.3, 1);
 }
 
@@ -531,7 +530,7 @@ section {
 
 .detail-meta-row {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1px;
   background: var(--rule);
   border: 1px solid var(--rule);
@@ -1085,17 +1084,14 @@ footer {
 
 <!-- NAV -->
 <nav>
-  <a href="#" class="nav-name">OH EUNSEOK — 오은석</a>
+  <a href="#" class="nav-name">OH EUNSEOK</a>
   <div class="nav-right">
     <ul class="nav-links">
-      <li><a href="#projects" data-ko="프로젝트" data-en="WORK">프로젝트</a></li>
-      <li><a href="#about" data-ko="소개" data-en="ABOUT">소개</a></li>
-      <li><a href="#contact" data-ko="연락" data-en="CONTACT">연락</a></li>
+      <li><a href="#projects">WORK</a></li>
+      <li><a href="#about">ABOUT</a></li>
+      <li><a href="#contact">CONTACT</a></li>
     </ul>
-    <div class="lang-toggle">
-      <button class="lang-btn active" id="btn-ko" onclick="setLang('ko')">KO</button>
-      <button class="lang-btn" id="btn-en" onclick="setLang('en')">EN</button>
-    </div>
+    
   </div>
 </nav>
 
@@ -1104,17 +1100,13 @@ footer {
   <div class="hero-left reveal">
     <p class="hero-index">BRAND EXPERIENCE DESIGNER / COMMUNICATOR</p>
     <h1 class="hero-title">
-      <span data-ko="<em>디자이너?</em>" data-en="<em>Designer?</em>">
-        <em>디자이너?</em>
-      </span>
+      <span><em>Designer?</em></span>
     </h1>
-    <p class="hero-statement" data-ko="애정을 갖고 브랜드를 대하다 보면 자연스레 소통의 필요를 갖게 됩니다. 소통을 하려다 보면, 상대방이 무엇을 어떻게 듣고 싶어할지 고민하게 됩니다. 상대방을 공감하고, 상대방도 쉽게 공감할 수 있도록 하는 것이 제 소명입니다." data-en="When I care for a brand, communication becomes essential. Thinking about how others want to be heard leads to empathy — and empathy is at the core of everything I design.">
-      애정을 갖고 브랜드를 대하다 보면 자연스레 소통의 필요를 갖게 됩니다. 소통을 하려다 보면, 상대방이 무엇을 어떻게 듣고 싶어할지 고민하게 됩니다. 상대방을 공감하고, 상대방도 쉽게 공감할 수 있도록 하는 것이 제 소명입니다.
-    </p>
+    <p class="hero-statement">When I care for a brand, communication becomes essential. Thinking about how others want to be heard leads to empathy — and empathy is at the core of everything I design.</p>
     <div class="hero-meta">
       <div class="hero-meta-row">
         <span class="meta-label">BASE</span>
-        <span class="meta-val">Seoul, Jungnang-gu</span>
+        <span class="meta-val">512 Ash Street, New Westminster</span>
       </div>
       <div class="hero-meta-row">
         <span class="meta-label">EDU</span>
@@ -1150,9 +1142,7 @@ footer {
           <span class="circle-label">Empathy</span>
         </div>
       </div>
-      <p class="philosophy-text" data-ko='"2025년 연말평가 내 동료 평가 항목 장점 언급 1위"<br><br>디자이너라는 직무에 얽매이지 않고, 브랜드와 회사의 입장에서 매출·비용 등 전체 흐름을 바라봅니다. 팀 간 의견 충돌 시 모든 의견을 종합하여 선택지를 제안하거나 중재하는 데에 탁월합니다.' data-en='"Top-cited strength in 2025 year-end peer review."<br><br>I work beyond the designer title — looking at the full picture including revenue and cost from the brand&apos;s perspective. I excel at synthesising conflicting opinions and proposing actionable paths forward.'>
-        "2025년 연말평가 내 동료 평가 항목 장점 언급 1위"<br><br>디자이너라는 직무에 얽매이지 않고, 브랜드와 회사의 입장에서 매출·비용 등 전체 흐름을 바라봅니다. 팀 간 의견 충돌 시 모든 의견을 종합하여 선택지를 제안하거나 중재하는 데에 탁월합니다.
-      </p>
+      <p class="philosophy-text">"Top-cited strength in 2025 year-end peer review."<br><br>I work beyond the designer title — looking at the full picture including revenue and cost from the brand's perspective. I excel at synthesising conflicting opinions and proposing actionable paths forward.</p>
     </div>
   </div>
 </div>
@@ -1160,7 +1150,7 @@ footer {
 <!-- PROJECTS -->
 <section id="projects">
   <div class="section-header reveal">
-    <span class="section-title" data-ko="주요 프로젝트" data-en="SELECTED WORK">주요 프로젝트</span>
+    <span class="section-title">SELECTED WORK</span>
     <span class="section-count">04 PROJECTS</span>
   </div>
 
@@ -1170,21 +1160,18 @@ footer {
     <div class="project-card reveal" onclick="openDetail('p1')">
       <div class="project-thumb">
         <div class="project-thumb-inner thumb-1">
-          <img src="DSC01270.png" alt="보이지 않는 것을 보는 법" style="width:100%;height:100%;object-fit:cover;">
+          <img src="DSC01270.png" alt="How to See the Invisible" style="width:100%;height:100%;object-fit:cover;">
         </div>
       </div>
       <div class="project-info">
         <div class="project-num">01</div>
-        <h2 class="project-title" data-ko="보이지 않는 것을 보는 법" data-en="How to See the Invisible">보이지 않는 것을 보는 법</h2>
+        <h2 class="project-title">How to See the Invisible</h2>
         <div class="project-tags">
           <span class="tag">EXHIBITION</span>
           <span class="tag">BRANDING</span>
           <span class="tag">VISUAL IDENTITY</span>
         </div>
-        <p class="project-desc" data-ko="Sumsei 실버라이닝 워머 출시 연계 프라이빗 전시 기획. 니치 타겟을 위한 브랜드 경험 설계." data-en="Private exhibition for the launch of Sumsei Silver Lining Warmer. Designed a brand experience targeting a niche, high-value audience.">
-          Sumsei 실버라이닝 워머 출시 연계 프라이빗 전시 기획. 니치 타겟을 위한 브랜드 경험 설계.
-        </p>
-        <p class="project-contrib">기여도 <span>74%</span></p>
+        <p class="project-desc">Private exhibition for the launch of Sumsei Silver Lining Warmer. Designed a brand experience targeting a niche, high-value audience.</p>
       </div>
     </div>
 
@@ -1192,21 +1179,18 @@ footer {
     <div class="project-card reveal" onclick="openDetail('p2')" style="transition-delay:0.08s">
       <div class="project-thumb">
         <div class="project-thumb-inner thumb-2">
-          <img src="pebbletab_turtle_thumbnail.png" alt="페블탭 브랜드 필름" style="width:100%;height:100%;object-fit:cover;">
+          <img src="pebbletab_turtle_thumbnail.png" alt="Pebble Tab Brand Film" style="width:100%;height:100%;object-fit:cover;">
         </div>
       </div>
       <div class="project-info">
         <div class="project-num">02</div>
-        <h2 class="project-title" data-ko="페블탭 브랜드 필름" data-en="Pebble Tab Brand Film">페블탭 브랜드 필름</h2>
+        <h2 class="project-title">Pebble Tab Brand Film</h2>
         <div class="project-tags">
           <span class="tag">FILM</span>
           <span class="tag">ART DIRECTION</span>
           <span class="tag">STYLING</span>
         </div>
-        <p class="project-desc" data-ko="저비용으로 위트 있는 브랜드 무드를 구현한 제품 런치 필름. 소형 동물과 좁은 화각의 스토리텔링." data-en="A brand launch film with wit and warmth, achieved on a tight budget. Small animals, tight framing, storytelling through styling.">
-          저비용으로 위트 있는 브랜드 무드를 구현한 제품 런치 필름. 소형 동물과 좁은 화각의 스토리텔링.
-        </p>
-        <p class="project-contrib">기여도 <span>74%</span></p>
+        <p class="project-desc">A brand launch film with wit and warmth, achieved on a tight budget. Small animals, tight framing, storytelling through styling.</p>
       </div>
     </div>
 
@@ -1214,21 +1198,18 @@ footer {
     <div class="project-card reveal" onclick="openDetail('p3')" style="transition-delay:0.12s">
       <div class="project-thumb">
         <div class="project-thumb-inner thumb-3">
-          <img src="8W3A3304.jpg" alt="협력사를 위한 스페셜 패키지" style="width:100%;height:100%;object-fit:cover;">
+          <img src="8W3A3304.jpg" alt="Special Package for Partners" style="width:100%;height:100%;object-fit:cover;">
         </div>
       </div>
       <div class="project-info">
         <div class="project-num">03</div>
-        <h2 class="project-title" data-ko="협력사를 위한 스페셜 패키지" data-en="Special Package for Partners">협력사를 위한 스페셜 패키지</h2>
+        <h2 class="project-title">Special Package for Partners</h2>
         <div class="project-tags">
           <span class="tag">PACKAGING</span>
           <span class="tag">EXPERIENCE DESIGN</span>
           <span class="tag">HANDCRAFT</span>
         </div>
-        <p class="project-desc" data-ko="주문 제작 나무상자 + 개별화된 테라리움 연출. 가장 저렴한 제품으로 가장 값진 경험을 선물." data-en="Custom wooden box with personalised terrarium. The most valuable gift delivered through the most accessible product.">
-          주문 제작 나무상자 + 개별화된 테라리움 연출. 가장 저렴한 제품으로 가장 값진 경험을 선물.
-        </p>
-        <p class="project-contrib">기여도 <span>90%</span></p>
+        <p class="project-desc">Custom wooden box with personalised terrarium. The most valuable gift delivered through the most accessible product.</p>
       </div>
     </div>
 
@@ -1236,21 +1217,18 @@ footer {
     <div class="project-card reveal" onclick="openDetail('p4')" style="transition-delay:0.16s">
       <div class="project-thumb">
         <div class="project-thumb-inner thumb-4">
-          <img src="onion_open.png" alt="onion 광장시장점" style="width:100%;height:100%;object-fit:cover;">
+          <img src="onion_open.png" alt="onion Gwangjang Market" style="width:100%;height:100%;object-fit:cover;">
         </div>
       </div>
       <div class="project-info">
         <div class="project-num">04</div>
-        <h2 class="project-title" data-ko="신규 매장 그래픽 — onion 광장시장점" data-en="New Store Graphics — onion Gwangjang">신규 매장 그래픽 — onion 광장시장점</h2>
+        <h2 class="project-title">New Store Graphics — onion Gwangjang</h2>
         <div class="project-tags">
           <span class="tag">GRAPHIC</span>
           <span class="tag">VMD</span>
           <span class="tag">SPACE</span>
         </div>
-        <p class="project-desc" data-ko="오랜 전통시장의 향토성과 어니언 브랜드의 정수를 담은 오프라인 공간 그래픽." data-en="Graphic work capturing the heritage of a historic market alongside the essence of the onion brand identity.">
-          오랜 전통시장의 향토성과 어니언 브랜드의 정수를 담은 오프라인 공간 그래픽.
-        </p>
-        <p class="project-contrib">기여도 <span>90%</span></p>
+        <p class="project-desc">Graphic work capturing the heritage of a historic market alongside the essence of the onion brand identity.</p>
       </div>
     </div>
 
@@ -1269,12 +1247,8 @@ footer {
 <section id="about">
   <div class="about-grid">
     <div class="about-left reveal">
-      <h2 class="about-heading" data-ko="커뮤니케이터,<br><em>브랜드 경험</em><br>설계자" data-en="Communicator,<br><em>Brand Experience</em><br>Architect">
-        커뮤니케이터,<br><em>브랜드 경험</em><br>설계자
-      </h2>
-      <p class="about-body" data-ko="디자인을 넘어 브랜드 전체를 봅니다. 공간·그래픽·영상·패키지가 하나의 브랜드 언어로 통하도록 설계합니다. 여러 직책의 팀원과 일하며 각 팀의 의견을 성의껏 듣고, 의견 충돌을 해소하는 데 즐거움을 느낍니다." data-en="I see beyond design, looking at the brand as a whole. I connect space, graphic, film, and packaging into a single coherent brand language. Working across disciplines, I listen carefully and find satisfaction in resolving tension between teams.">
-        디자인을 넘어 브랜드 전체를 봅니다. 공간·그래픽·영상·패키지가 하나의 브랜드 언어로 통하도록 설계합니다. 여러 직책의 팀원과 일하며 각 팀의 의견을 성의껏 듣고, 의견 충돌을 해소하는 데 즐거움을 느낍니다.
-      </p>
+      <h2 class="about-heading">Communicator,<br><em>Brand Experience</em><br>Architect</h2>
+      <p class="about-body">I see beyond design, looking at the brand as a whole. I connect space, graphic, film, and packaging into a single coherent brand language. Working across disciplines, I listen carefully and find satisfaction in resolving tension between teams.</p>
       <div class="timeline">
         <div class="timeline-item">
           <span class="timeline-year">2023—</span>
@@ -1282,15 +1256,15 @@ footer {
         </div>
         <div class="timeline-item">
           <span class="timeline-year">2022</span>
-          <span class="timeline-desc">Graphic & VMD Designer, onion</span>
+          <span class="timeline-desc">Graphic &amp; VMD Designer, onion</span>
         </div>
         <div class="timeline-item">
           <span class="timeline-year">2019—21</span>
-          <span class="timeline-desc">일상의실천, 수무 등에서 조력 다수</span>
+          <span class="timeline-desc">Support roles at Everyday Practice, Sumu, and others</span>
         </div>
         <div class="timeline-item">
           <span class="timeline-year">—2020</span>
-          <span class="timeline-desc">성균관대 디자인학과 (써피스디자인 전공)</span>
+          <span class="timeline-desc">Sungkyunkwan University, Dept. of Design (Surface Design)</span>
         </div>
       </div>
     </div>
@@ -1320,23 +1294,23 @@ footer {
         <div class="work-scope">
           <div class="scope-item">
             <span class="scope-label">Space</span>
-            <span class="scope-sub">공간 기획 · 설치</span>
+            <span class="scope-sub">Planning · installation</span>
           </div>
           <div class="scope-item">
             <span class="scope-label">Graphic</span>
-            <span class="scope-sub">VI · 인쇄물</span>
+            <span class="scope-sub">VI · print</span>
           </div>
           <div class="scope-item">
             <span class="scope-label">Package</span>
-            <span class="scope-sub">패키지 · 굿즈</span>
+            <span class="scope-sub">Packaging · goods</span>
           </div>
           <div class="scope-item">
             <span class="scope-label">Experience</span>
-            <span class="scope-sub">전시 · 이벤트</span>
+            <span class="scope-sub">Exhibition · events</span>
           </div>
           <div class="scope-item" style="grid-column: span 2;">
-            <span class="scope-label">Film & Content</span>
-            <span class="scope-sub">영상 기획 · 아트디렉션</span>
+            <span class="scope-label">Film &amp; Content</span>
+            <span class="scope-sub">Planning · art direction</span>
           </div>
         </div>
       </div>
@@ -1345,9 +1319,9 @@ footer {
         <p class="stacked-bar-title">EXPERIENCE FOCUS</p>
         <div class="stacked-bar-track">
           <div class="stacked-bar-seg" style="width:30%; background:#2A4BD4; --delay:0.05s;" title="Brand Strategy 30%"></div>
-          <div class="stacked-bar-seg" style="width:35%; background:#6B8FE8; --delay:0.1s;"  title="Content / Film 35%"></div>
+          <div class="stacked-bar-seg" style="width:35%; background:#6B8FE8; --delay:0.1s;" title="Content / Film 35%"></div>
           <div class="stacked-bar-seg" style="width:15%; background:#4B7A3E; --delay:0.15s;" title="Packaging 15%"></div>
-          <div class="stacked-bar-seg" style="width:12%; background:#B07830; --delay:0.2s;"  title="Offline / Space 12%"></div>
+          <div class="stacked-bar-seg" style="width:12%; background:#B07830; --delay:0.2s;" title="Offline / Space 12%"></div>
           <div class="stacked-bar-seg" style="width:8%;  background:#8B6B5A; --delay:0.25s;" title="Editorial 8%"></div>
         </div>
         <div class="stacked-bar-legend">
@@ -1385,12 +1359,12 @@ footer {
 <!-- OTHER PROJECTS -->
 <div id="other-projects" style="max-width:1200px; margin:0 auto; border-top:1px solid var(--rule); padding:80px 40px;">
   <div class="other-header reveal">
-    <span class="other-title" data-ko="그 외 프로젝트" data-en="MORE WORK">그 외 프로젝트</span>
+    <span class="other-title">MORE WORK</span>
     <div class="other-nav">
-      <button class="other-nav-btn active" onclick="filterOther('all', this)" data-ko="전체" data-en="ALL">전체</button>
+      <button class="other-nav-btn active" onclick="filterOther('all', this)">ALL</button>
       <button class="other-nav-btn" onclick="filterOther('sumsei', this)">Sumsei</button>
       <button class="other-nav-btn" onclick="filterOther('onion', this)">onion</button>
-      <button class="other-nav-btn" onclick="filterOther('etc', this)" data-ko="기타" data-en="ETC">기타</button>
+      <button class="other-nav-btn" onclick="filterOther('etc', this)">ETC</button>
     </div>
   </div>
   <div class="other-list reveal" id="other-list"></div>
@@ -1399,9 +1373,7 @@ footer {
 <!-- CONTACT -->
 <div id="contact" style="max-width:1200px; margin:0 auto;">
   <div class="contact-inner reveal">
-    <h2 class="contact-heading" data-ko="함께<br>만들어<br><em>봐요</em>" data-en="Let's make<br>something<br><em>together</em>">
-      함께<br>만들어<br><em>봐요</em>
-    </h2>
+    <h2 class="contact-heading">Let's make<br>something<br><em>together</em></h2>
     <div class="contact-links">
       <a href="mailto:oh5739@gmail.com" class="contact-link">
         <span class="contact-link-label">EMAIL</span>
@@ -1437,7 +1409,7 @@ footer {
 </div>
 
 <footer>
-  <span class="footer-copy">© 2025 OH EUNSEOK — 오은석. All rights reserved.</span>
+  <span class="footer-copy">© 2025 OH EUNSEOK. All rights reserved.</span>
   <span class="footer-copy">Brand Experience Designer</span>
 </footer>
 
@@ -1448,30 +1420,18 @@ const projects = {
     num: '01',
     vimeo: 'https://player.vimeo.com/video/1074200074?h=0b148a5f10&title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479',
     gallery: [
-      { src: 'DSC01270.png', alt: '전시 공간 전경 — 인물 실루엣' },
-      { src: 'seeing06.webp', alt: '전시 전체 공간' },
-      { src: 'DSC01168.png', alt: '실버라이닝 워머 & 구름' },
-      { src: 'DSC01173.png', alt: '전시 공간 세부' },
-      { src: 'DSC01176.png', alt: '구름 조명 오브제' },
-      { src: 'DSC01187.png', alt: '전시 공간 구성' },
-      { src: 'seeing07.webp', alt: '라운지 공간' },
+      { src: 'DSC01270.png', alt: 'Exhibition space — silhouette' },
+      { src: 'seeing06.webp', alt: 'Exhibition space, full view' },
+      { src: 'DSC01168.png', alt: 'Silver Lining Warmer & cloud' },
+      { src: 'DSC01173.png', alt: 'Exhibition detail' },
+      { src: 'DSC01176.png', alt: 'Cloud light object' },
+      { src: 'DSC01187.png', alt: 'Exhibition layout' },
+      { src: 'seeing07.webp', alt: 'Lounge space' },
     ],
-    ko: {
-      title: '보이지 않는 것을 보는 법',
-      subtitle: 'Sumsei 실버라이닝 워머 연관 전시',
-      roles: ['전시 기획', '메인 비주얼', '그래픽 전반', '지류·영상 제작', '전시 설치 보조'],
-      contrib: '74%',
-      duration: '—',
-      team: 'Sumsei 브랜딩팀',
-      problem: '신제품 실버라이닝 워머가 출시되었습니다. 기존 시장의 다른 제품들보다 매우 높은 가격이 채택되었습니다. 불특정 다수가 아닌, 니치한 타겟을 목표로 한 홍보 전략이 필요했습니다.',
-      needs: '영향력·경제력·인지도 있는 타겟을 우선 접근하길 원했습니다. 비용 투자에 따른 위험성을 최소화하고자 했습니다. 모기업에서 운영하는 PRAIN VILLA의 지하공간을 지원받아 진행했습니다.',
-      solution: '사색 & 몰입 & 감상 & 휴식 → 프라이빗 행사, 초청 방식으로 설계하여 타겟에게만 닿는 경험을 구현했습니다.',
-    },
     en: {
       title: 'How to See the Invisible',
       subtitle: 'Exhibition connected to Sumsei Silver Lining Warmer launch',
       roles: ['Exhibition Planning', 'Main Visual', 'Overall Graphic', 'Print & Film', 'Installation Support'],
-      contrib: '74%',
       duration: '—',
       team: 'Sumsei Branding Team',
       problem: 'A new product — the Silver Lining Warmer — launched at a significantly higher price point than competitors. A targeted promotional strategy reaching a niche, not the general public, was needed.',
@@ -1483,26 +1443,14 @@ const projects = {
   p2: {
     num: '02',
     videos: [
-      { src: 'https://player.vimeo.com/video/1074624376?h=06ec947f25&badge=0&autopause=0&player_id=0&app_id=58479', title: '거북이' },
-      { src: 'https://player.vimeo.com/video/1074624100?h=491f6ccfa9&badge=0&autopause=0&player_id=0&app_id=58479', title: '새' },
-      { src: 'https://player.vimeo.com/video/1074624230?h=909ce5979e&badge=0&autopause=0&player_id=0&app_id=58479', title: '돌무더기' },
+      { src: 'https://player.vimeo.com/video/1074624376?h=06ec947f25&badge=0&autopause=0&player_id=0&app_id=58479', title: 'Turtle' },
+      { src: 'https://player.vimeo.com/video/1074624100?h=491f6ccfa9&badge=0&autopause=0&player_id=0&app_id=58479', title: 'Bird' },
+      { src: 'https://player.vimeo.com/video/1074624230?h=909ce5979e&badge=0&autopause=0&player_id=0&app_id=58479', title: 'Stone Pile' },
     ],
-    ko: {
-      title: '페블탭 브랜드 필름',
-      subtitle: 'Sumsei 페블탭 출시 기념 브랜드 필름 제작',
-      roles: ['영상 기획', '스토리보드', '촬영 스타일링'],
-      contrib: '74%',
-      duration: '—',
-      team: 'Sumsei 브랜딩팀',
-      problem: '가격 접근성이 높은 페블탭이 출시되었습니다. 영업이익이 낮기 때문에 촬영에 드는 비용을 제한해야 했습니다.',
-      needs: '기존 제품들과 다르게 쉽고 친근한 브랜딩이 필요했습니다. 차분한 브랜드 무드를 유지하면서 위트를 보여줘야 했습니다.',
-      solution: '소형 동물 + 좁은 영상 화각 + 스토리텔링과 스타일링의 결합으로 저비용 고효율의 위트 있는 필름을 완성했습니다.',
-    },
     en: {
       title: 'Pebble Tab Brand Film',
       subtitle: 'Brand film for the launch of Sumsei Pebble Tab',
       roles: ['Film Planning', 'Storyboard', 'Set Styling'],
-      contrib: '74%',
       duration: '—',
       team: 'Sumsei Branding Team',
       problem: 'The Pebble Tab launched at an accessible price point, which limited the budget available for production.',
@@ -1515,27 +1463,15 @@ const projects = {
     num: '03',
     vimeo: 'https://player.vimeo.com/video/1074659973?h=7795d5bf1a&badge=0&autopause=0&player_id=0&app_id=58479',
     gallery: [
-      { src: '8W3A3304.jpg', alt: '테라리움 패키지 — 전면' },
-      { src: '8W3A3294.jpg', alt: '박스 오픈 — 페블탭과 이끼' },
-      { src: '8W3A3285.jpg', alt: '테라리움 클로즈업' },
-      { src: '8W3A3271.jpg', alt: '나무상자 외관 — 잔디 위' },
+      { src: '8W3A3304.jpg', alt: 'Terrarium package — front' },
+      { src: '8W3A3294.jpg', alt: 'Box opened — Pebble Tab & moss' },
+      { src: '8W3A3285.jpg', alt: 'Terrarium close-up' },
+      { src: '8W3A3271.jpg', alt: 'Wooden box on grass' },
     ],
-    ko: {
-      title: '협력사를 위한 스페셜 패키지',
-      subtitle: 'Sumsei 페블탭 출시 기념 시딩용 스페셜 패키지',
-      roles: ['패키지 기획', '스타일링', '제작'],
-      contrib: '90%',
-      duration: '—',
-      team: 'Sumsei 브랜딩팀',
-      problem: '시장의 논리가 아닌 방식으로 섬세이를 알리기 위해 모험 중이었습니다. 오프라인 초청 행사를 반복하기에는 비용이 너무 컸습니다.',
-      needs: '섬세이와 관계 맺어 온 파트너·협력자들과 더욱 돈독해지고자 했습니다. 돈으로 충족될 수 없는 가치를 선물하고 싶었습니다.',
-      solution: '주문 제작 나무상자 + 개별화된 테라리움 연출. 가장 저렴한 제품으로 가장 값진 경험을 전달했습니다.',
-    },
     en: {
       title: 'Special Package for Partners',
       subtitle: 'Seeding package for Sumsei partners on Pebble Tab launch',
       roles: ['Package Planning', 'Styling', 'Production'],
-      contrib: '90%',
       duration: '—',
       team: 'Sumsei Branding Team',
       problem: 'The brand was seeking unconventional ways to build presence. Repeated offline events were too costly to sustain.',
@@ -1547,39 +1483,27 @@ const projects = {
   p4: {
     num: '04',
     videos: [
-      { src:'https://player.vimeo.com/video/1078213255?h=32d1e366be&badge=0&autopause=0&player_id=0&app_id=58479', pad:'56.39%', title:'광장시장 그래픽 1' },
-      { src:'https://player.vimeo.com/video/1075584367?h=92df4eb55c&badge=0&autopause=0&player_id=0&app_id=58479', pad:'121.9%', title:'광장시장 그래픽 2' },
+      { src:'https://player.vimeo.com/video/1078213255?h=32d1e366be&badge=0&autopause=0&player_id=0&app_id=58479', pad:'56.39%', title:'Gwangjang Graphic 1' },
+      { src:'https://player.vimeo.com/video/1075584367?h=92df4eb55c&badge=0&autopause=0&player_id=0&app_id=58479', pad:'121.9%', title:'Gwangjang Graphic 2' },
     ],
     gallery: [
-      { src: 'onion_open.png',          alt: 'ONION 4th Store — 광장시장 오픈 포스터' },
-      { src: 'onion_p1.jpg',            alt: 'Guest Barista 포스터 1' },
-      { src: 'onion_p2.jpg',            alt: 'Guest Barista 포스터 2' },
-      { src: 'onion_p3.jpg',            alt: 'Guest Barista 포스터 3' },
-      { src: 'onion_poster_street.png', alt: '거리 포스터 설치' },
-      { src: 'onion_process.png',       alt: '제작 과정 — 컵·스티커·그래피티' },
-      { src: 'onion_pairing_cover.png', alt: 'Gwangjang Pairing Guide 커버' },
-      { src: 'onion_pairing_spread.png',alt: 'Gwangjang Pairing Guide 내지' },
-      { src: 'onion_pizza1.png',        alt: 'Crazy Pizza Pie 메뉴 그래픽 1' },
-      { src: 'onion_pizza2.png',        alt: 'Crazy Pizza Pie 메뉴 그래픽 2' },
+      { src: 'onion_open.png',          alt: 'ONION 4th Store — Gwangjang opening poster' },
+      { src: 'onion_p1.jpg',            alt: 'Guest Barista poster 1' },
+      { src: 'onion_p2.jpg',            alt: 'Guest Barista poster 2' },
+      { src: 'onion_p3.jpg',            alt: 'Guest Barista poster 3' },
+      { src: 'onion_poster_street.png', alt: 'Street poster installation' },
+      { src: 'onion_process.png',       alt: 'Process — cups, stickers, graffiti' },
+      { src: 'onion_pairing_cover.png', alt: 'Gwangjang Pairing Guide cover' },
+      { src: 'onion_pairing_spread.png',alt: 'Gwangjang Pairing Guide spread' },
+      { src: 'onion_pizza1.png',        alt: 'Crazy Pizza Pie menu graphic 1' },
+      { src: 'onion_pizza2.png',        alt: 'Crazy Pizza Pie menu graphic 2' },
       { src: 'onion_hazelnut1.png',     alt: 'Handmade Hazelnut Latte 1' },
       { src: 'onion_hazelnut2.png',     alt: 'Handmade Hazelnut Latte 2' },
     ],
-    ko: {
-      title: '신규 매장 그래픽 — onion 광장시장점',
-      subtitle: 'onion 광장시장점 오픈 운영을 위한 그래픽 작업',
-      roles: ['프로젝트 기획', '메인 비주얼', '그래픽 전반', '지류 제작', '설치'],
-      contrib: '90%',
-      duration: '—',
-      team: 'onion 아트 크리에이티브 팀',
-      problem: '기존 어니언 브랜드가 갖는 이미지를 완전히 버리지 않으면서, 매장의 지역적 특색을 담아야 했습니다. 온·오프라인 모두 활용 가능한 다채로운 소스가 필요했습니다.',
-      needs: '오랜 전통시장이 갖는 향토적 감각과 어니언의 정수를 담고자 했습니다. 젊은 세대와 관광객, 시장의 상인 모두를 위한 공간이길 바랐습니다.',
-      solution: '음식과 커피 페어링 + 다양하고 분주한 시장의 풍경 + 다채로운 사람들을 주제로 온·오프라인을 아우르는 그래픽 시스템을 구축했습니다.',
-    },
     en: {
       title: 'New Store Graphics — onion Gwangjang Market',
       subtitle: 'Graphic work for the opening of onion Gwangjang Market branch',
       roles: ['Project Planning', 'Main Visual', 'Overall Graphic', 'Print Production', 'Installation'],
-      contrib: '90%',
       duration: '—',
       team: 'onion Art Creative Team',
       problem: 'The new location had to honour the existing onion brand while embedding the distinct character of Gwangjang Market. Versatile assets for both online and offline use were needed.',
@@ -1590,18 +1514,7 @@ const projects = {
   },
 };
 
-let currentLang = 'ko';
-
-function setLang(lang) {
-  currentLang = lang;
-  document.getElementById('btn-ko').classList.toggle('active', lang === 'ko');
-  document.getElementById('btn-en').classList.toggle('active', lang === 'en');
-  document.documentElement.lang = lang;
-  document.querySelectorAll('[data-ko]').forEach(el => {
-    el.innerHTML = el.dataset[lang];
-  });
-  renderOtherProjects();
-}
+const currentLang = 'en';
 
 function buildMediaBlock(d) {
   let html = '';
@@ -1688,8 +1601,7 @@ function buildMediaBlock(d) {
 function openDetail(id) {
   const p = projects[id][currentLang];
   const d = projects[id];
-  const isKo = currentLang === 'ko';
-
+  
   document.getElementById('detail-content').innerHTML = `
     <div class="detail-num">${d.num} / 04</div>
     <h2 class="detail-title">${p.title}</h2>
@@ -1699,15 +1611,11 @@ function openDetail(id) {
 
     <div class="detail-meta-row">
       <div class="detail-meta-cell">
-        <div class="detail-meta-label">${isKo ? '기여도' : 'CONTRIBUTION'}</div>
-        <div class="detail-meta-val">${p.contrib}</div>
-      </div>
-      <div class="detail-meta-cell">
-        <div class="detail-meta-label">${isKo ? '팀' : 'TEAM'}</div>
+        <div class="detail-meta-label">TEAM</div>
         <div class="detail-meta-val">${p.team}</div>
       </div>
       <div class="detail-meta-cell">
-        <div class="detail-meta-label">${isKo ? '역할' : 'ROLE'}</div>
+        <div class="detail-meta-label">ROLE</div>
         <div class="detail-meta-val">${p.roles.slice(0, 2).join(', ')}</div>
       </div>
     </div>
@@ -1776,35 +1684,31 @@ const otherProjects = [
       'IMG_2442.jpg','IMG_2443.jpg','IMG_2444.jpg',
     ],
     videos: [],
-    ko:{ title:'우드 워킹', tag:'WOODWORKING · PERSONAL', desc:'우드카빙과 원목가구 제작. 웹 데이터나 패키지가 아닌, 그 자체로 가치와 효능을 갖는 물성을 만들기 위한 작업들.' },
     en:{ title:'Wood Working', tag:'WOODWORKING · PERSONAL', desc:'Wood carving and solid wood furniture making. A personal pursuit of creating physical objects with inherent value — not packaging or digital assets, but things that simply exist and function.' },
   },
   { id:'op1', cat:'sumsei', year:'2024',
     thumb: 'airshower_commercial_3.jpg',
     videos: [
-      { src:'https://player.vimeo.com/video/1075903469?h=2a4aa207ee&badge=0&autopause=0&player_id=0&app_id=58479', pad:'54.73%', title:'직장인' },
-      { src:'https://player.vimeo.com/video/1075903494?h=89a9c61ce5&badge=0&autopause=0&player_id=0&app_id=58479', pad:'54.73%', title:'임산부' },
-      { src:'https://player.vimeo.com/video/1075903433?h=3334ed36b5&badge=0&autopause=0&player_id=0&app_id=58479', pad:'54.73%', title:'어린이' },
-      { src:'https://player.vimeo.com/video/1075903914?h=7c5729d67d&badge=0&autopause=0&player_id=0&app_id=58479', pad:'54.73%', title:'남성' },
-      { src:'https://player.vimeo.com/video/1075903871?h=e7a0399fda&badge=0&autopause=0&player_id=0&app_id=58479', pad:'54.73%', title:'어린이 2' },
+      { src:'https://player.vimeo.com/video/1075903469?h=2a4aa207ee&badge=0&autopause=0&player_id=0&app_id=58479', pad:'54.73%', title:'Office Workers' },
+      { src:'https://player.vimeo.com/video/1075903494?h=89a9c61ce5&badge=0&autopause=0&player_id=0&app_id=58479', pad:'54.73%', title:'Expecting Mothers' },
+      { src:'https://player.vimeo.com/video/1075903433?h=3334ed36b5&badge=0&autopause=0&player_id=0&app_id=58479', pad:'54.73%', title:'Children' },
+      { src:'https://player.vimeo.com/video/1075903914?h=7c5729d67d&badge=0&autopause=0&player_id=0&app_id=58479', pad:'54.73%', title:'Men' },
+      { src:'https://player.vimeo.com/video/1075903871?h=e7a0399fda&badge=0&autopause=0&player_id=0&app_id=58479', pad:'54.73%', title:'Children 2' },
     ],
     gallery: ['airshower_commercial_3.jpg','airshower_commercial_4.jpg','airshower_commercial_5.jpg','airshower_commercial_6.jpg','airshower_commercial_7.jpg','airshower_commercial_8.jpg'],
-    ko:{ title:'에어사워 디지털 광고', tag:'FILM · SUMSEI', desc:'고객 리뷰 기반으로 임산부·직장인·자녀 대상 3가지 타겟 광고를 기획했습니다. 브랜드 이미지보다 실제 사용 환경에 집중하여 제품 자체를 전면에 내세운 캠페인입니다.' },
     en:{ title:'Airsour Digital Ad Campaign', tag:'FILM · SUMSEI', desc:'Three targeted films developed from customer reviews — for pregnant women, office workers, and parents. Led with real use environments rather than brand image.' },
   },
   { id:'op2', cat:'sumsei', year:'2024',
     thumb: 'divingpoint_thumbnail_1.jpg',
     videos: [
-      { src:'https://player.vimeo.com/video/1075593763?h=4574ab3890&badge=0&autopause=0&player_id=0&app_id=58479', pad:'56.25%', title:'Diving Point 티저' },
+      { src:'https://player.vimeo.com/video/1075593763?h=4574ab3890&badge=0&autopause=0&player_id=0&app_id=58479', pad:'56.25%', title:'Diving Point Teaser' },
     ],
     gallery: ['divingpoint_thumbnail_1.jpg','divingpoint_graphicthumbnail_1.jpg','divingpoint_pam_1.png','divingpoint_pam_2.png','divingpoint_pam_3.png','divingpoint_pam_4.png','divingpoint_pam_5.png','divingpoint_pam_6.png','divingpoint_fieldimage_1.jpg','divingpoint_fieldimage_2.jpg','divingpoint_fieldimage_3.jpg','divingpoint_fieldimage_4.jpg','divingpoint_fieldimage_5.jpg','divingpoint_fieldimage_6.jpg'],
-    ko:{ title:'Diving Point', tag:'BRANDING · SUMSEI', desc:'섬세이의 신규 라인 Diving Point의 브랜드 아이덴티티 및 론칭 콘텐츠를 기획했습니다. 깊이 있는 감각과 탐험의 감성을 시각 언어로 풀어낸 프로젝트입니다.' },
     en:{ title:'Diving Point', tag:'BRANDING · SUMSEI', desc:"Developed the brand identity and launch content for Sumsei's new line Diving Point. Translated a sense of depth and exploration into visual language." },
   },
   { id:'op3', cat:'onion', year:'2022',
     thumb: 'sustainable_field_7.png',
     gallery: ['sustainable_graphic_1.jpg','sustainable_graphic_2.jpg','sustainable_graphic_3.png','sustainable_graphic_4.png','sustainable_field_1.png','sustainable_field_2.png','sustainable_field_3.png','sustainable_field_4.png','sustainable_field_5.png','sustainable_field_6.png','sustainable_field_7.png'],
-    ko:{ title:'Sustainable Black', tag:'CAMPAIGN · ONION', desc:'어니언의 시그니처 컬러 블랙을 매개로 환경과 공존하는 메시지를 담아 온·오프라인 그래픽으로 제작한 지속가능성 테마 캠페인입니다.' },
     en:{ title:'Sustainable Black', tag:'CAMPAIGN · ONION', desc:"Used onion's signature black as a vehicle to communicate co-existence with the environment, produced across online and offline graphics." },
   },
   { id:'op4', cat:'sumsei', year:'2024',
@@ -1815,22 +1719,19 @@ const otherProjects = [
       { src:'https://player.vimeo.com/video/1075524744?h=9ccfe4d215&badge=0&autopause=0&player_id=0&app_id=58479', pad:'63.17%', title:'Earthing 3' },
     ],
     gallery: ['earthing_graphic_1.jpg','earthing_graphic_2.jpg','earthing_bag_1.jpg','earthing_bag_2.jpg','earthing_bag_3.jpg'],
-    ko:{ title:'Earthing Campaign', tag:'CAMPAIGN · SUMSEI', desc:'대지와의 접촉, 맨발 걷기 문화를 브랜드 메시지와 연결한 캠페인. 자연 소재와 감각적 경험을 중심으로 영상과 지류 그래픽을 제작했습니다.' },
     en:{ title:'Earthing Campaign', tag:'CAMPAIGN · SUMSEI', desc:"Connected barefoot walking culture with the brand's values. Produced film and print graphics centred on natural materials and sensory experience." },
   },
   { id:'op5', cat:'sumsei', year:'2023',
     thumb: 'fusion_graphic_4.png',
     videos: [
-      { src:'https://player.vimeo.com/video/1075591496?h=50711cf798&badge=0&autopause=0&player_id=0&app_id=58479', pad:'56.21%', title:'융합의 밤' },
+      { src:'https://player.vimeo.com/video/1075591496?h=50711cf798&badge=0&autopause=0&player_id=0&app_id=58479', pad:'56.21%', title:'Night of Convergence' },
     ],
     gallery: ['fusion_graphic_4.png','fusion_package_1.png','fusion_package_2.png','fusion_package_3.png'],
-    ko:{ title:'융합의 밤', tag:'EVENT · SUMSEI', desc:'섬세이와 파트너 브랜드들이 함께한 오프라인 네트워킹 이벤트. 공간 기획부터 초청장, 당일 그래픽 전반을 담당했습니다.' },
     en:{ title:'Night of Convergence', tag:'EVENT · SUMSEI', desc:'An offline networking event with Sumsei and partner brands. Handled full event graphics from space planning to invitations and on-site materials.' },
   },
   { id:'op6', cat:'sumsei', year:'2024',
     thumb: 'giftpackage_4.jpg',
     gallery: ['giftpackage_4.jpg','giftpackage_9.jpg','giftpackage_3.jpg','giftpackage_2.jpg','giftpackage_5.jpg','giftpackage_6.jpg','giftpackage_7.jpg','giftpackage_8.jpg','giftpackage_1.jpg'],
-    ko:{ title:'실버라이닝 워머 기프트 패키지', tag:'PACKAGING · SUMSEI', desc:'실버라이닝 워머의 시즌 기프트 패키지 디자인. 제품의 감성적 가치를 언박싱 경험으로 확장하는 패키지 시스템을 기획하고 제작했습니다.' },
     en:{ title:'Silver Lining Warmer Gift Package', tag:'PACKAGING · SUMSEI', desc:"Seasonal gift packaging for the Silver Lining Warmer. Extended the product's emotional value into the unboxing experience through a thoughtfully designed package system." },
   },
 ];
@@ -1851,8 +1752,8 @@ function renderOtherProjects() {
       ? `<img src="${p.thumb}" alt="${d.title}" style="width:100%;height:100%;object-fit:cover;display:block;">`
       : `<span class="other-img-plus">+</span>`;
     const moreBtn = hasGallery
-      ? `<button class="other-more-btn" onclick="openOtherGallery('${p.id}', event)">${currentLang === 'ko' ? '이미지 더보기' : 'View images'} ↗</button>`
-      : `<button class="other-more-btn disabled" onclick="triggerOtherImg('${p.id}', event)">${currentLang === 'ko' ? '이미지 추가' : 'Add image'} +</button>`;
+      ? `<button class="other-more-btn" onclick="openOtherGallery('${p.id}', event)">View images ↗</button>`
+      : `<button class="other-more-btn disabled" onclick="triggerOtherImg('${p.id}', event)">Add image +</button>`;
     return `
       <div class="other-item" data-id="${p.id}">
         <div class="other-item-img" id="img-${p.id}" onclick="${p.thumb ? `openOtherGallery('${p.id}', event)` : `triggerOtherImg('${p.id}', event)`}">
@@ -2006,7 +1907,8 @@ const observer = new IntersectionObserver(entries => {
 }, { threshold: 0.1 });
 document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 </script>
-  <script defer src="/_vercel/insights/script.js"></script>
+  <script defer="" src="/_vercel/insights/script.js"></script>
 
-</body>
-</html>
+
+
+</body></html>
